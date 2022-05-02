@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Mayra Cruz</h1>
-<h3 align="center">A passionate web developer in progress</h3>
+<h3 align="center">A passionate web developer in progress, from Jujuy - Argentina</h3>
 
 - 🔭 I’m currently working on **A CODER-DESAFIO**
 
-- 💬 Ask me about **HTML and Css**
+- 🌱 I’m currently learning **HTML and Css**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me: on github mayrarociocruz</h3>
 <p align="left">
 </p>
 
