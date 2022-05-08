@@ -107,11 +107,12 @@ html{
 .contenido p{
     color: #fff;
     position: absolute;
-    font-size: 2rem;
-    background: rgba(0, 0, 0, .7);
+    font-size: 1.8rem;
+    background: rgba(0, 0, 0, 0.356);
     text-align: justify;
     bottom: 0%;
-
+    
+    text-align: center;
 }
 .ana{
     width: 100%;
