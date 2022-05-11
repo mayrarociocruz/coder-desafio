@@ -1,0 +1,25 @@
+
+
+header{
+    nav{
+        background-color: #1C658C;
+    
+        div{
+            div{
+                div{
+                    a {
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    color: #EEEEEE;
+                    font-size: 2rem;
+                    font-weight: bold;
+                    text-shadow: 0.5 px 0.5px 0.5px #EEEEEE;
+                        &:hover {
+                            text-shadow: none;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
