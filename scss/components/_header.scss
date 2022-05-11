@@ -1,25 +1,17 @@
+.header{
+    background: rgb(28,101,140);
+    background: linear-gradient(180deg, rgba(28,101,140,0.9906337535014006) 0%, rgba(216,210,203,1) 97%, rgba(216,210,203,1) 97%, rgba(238,238,238,1) 100%);
 
-
-header{
-    nav{
-        background-color: #1C658C;
+} 
+.font-nav{
     
-        div{
-            div{
-                div{
-                    a {
-                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                    color: #EEEEEE;
-                    font-size: 2rem;
-                    font-weight: bold;
-                    text-shadow: 0.5 px 0.5px 0.5px #EEEEEE;
-                        &:hover {
-                            text-shadow: none;
-                            transition: 0.5s;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 0.5px black; 
+}  
+.font-nav:hover{
+    text-shadow: none;
+    transition: 1s;
+}    

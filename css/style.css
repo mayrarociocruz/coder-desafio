@@ -8,19 +8,162 @@ html {
   font-size: 62.5%;
 }
 
-header nav {
-  background-color: #1C658C;
-}
-header nav div div div a {
+main {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #EEEEEE;
+  background-color: #D8D2CB;
+}
+
+.header {
+  background: rgb(28, 101, 140);
+  background: linear-gradient(180deg, rgba(28, 101, 140, 0.9906337535) 0%, rgb(216, 210, 203) 97%, rgb(216, 210, 203) 97%, rgb(238, 238, 238) 100%);
+}
+
+.font-nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
   font-size: 2rem;
   font-weight: bold;
-  text-shadow: 0.5 px 0.5px 0.5px #EEEEEE;
+  text-shadow: 0.5px 0.5px 0.5px black;
 }
-header nav div div div a:hover {
+
+.font-nav:hover {
   text-shadow: none;
+  transition: 1s;
+}
+
+.hero {
+  width: 100%;
+  height: 48rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url("../assets/images/mujertrekking.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-h1 {
+  display: flex;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #D8D2CB;
+  font-weight: bold;
+}
+
+.foto-final {
+  width: 100%;
+  height: 48rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url("../assets/images/hombredeespaldas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.foto-final-h3 {
+  display: flex;
+  text-align: center;
+  font-size: 3rem;
+  color: #D8D2CB;
+  font-weight: bold;
+}
+
+.textotyp-titulo {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  padding: 2rem 2rem 2rem 2rem;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  background-color: #1C658C;
+  color: #D8D2CB;
+}
+.textotyp-parrafo {
+  padding: 2rem 2rem 2rem 2rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  background-color: #EEEEEE;
+}
+
+.video-i {
+  width: 98%;
+  height: 89%;
+  margin-top: 5rem;
+  margin-right: 1rem;
+}
+
+.contenido {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   transition: 0.5s;
+  position: relative;
+  -webkit-box-shadow: 10px 10px 5px 0px rgb(99, 110, 110);
+  -moz-box-shadow: 10px 10px 5px 0px rgb(99, 110, 110);
+  box-shadow: 10px 10px 5px 0px rgb(99, 110, 110);
+  border-radius: 10px;
+}
+.contenido-ana {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.contenido:hover {
+  transform: scale(1.1);
+}
+.contenido-p {
+  color: #fff;
+  position: absolute;
+  font-size: 1.6rem;
+  background-color: rgba(0, 0, 0, 0.342);
+  text-align: center;
+  bottom: 0%;
+}
+
+.footer-index {
+  max-width: 100vw;
+  height: 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(216, 210, 203);
+  background: linear-gradient(180deg, rgb(216, 210, 203) 0%, rgb(216, 210, 203) 0%, rgb(28, 101, 140) 100%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.footer-index-h5 {
+  display: flex;
+  text-align: left;
+  margin: 2rem 2rem 2rem 2rem;
+  font-size: 2.3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+.footer-index-iconos {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+}
+.footer-index-iconos li {
+  margin: 2rem 2rem 2rem 2rem;
+}
+.footer-index-iconos li a {
+  text-decoration: none;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
