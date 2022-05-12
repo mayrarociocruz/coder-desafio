@@ -1,0 +1,19 @@
+.parrafo-rgba{
+  margin-top: 3rem; 
+  margin-bottom: 3rem;
+  padding: 2rem 1rem 2rem 1rem;
+  justify-content: center;
+  background-color: $color-gris;
+  font-size: 2rem;
+  &-p {
+      text-align: center;
+  }
+}
+
+.foto-team img{
+  display: flex;
+  margin-top: 6rem;
+  border-radius: 5px;
+  
+}
+

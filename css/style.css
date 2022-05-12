@@ -23,6 +23,10 @@ main {
   background-color: #1C658C;
   color: #D8D2CB;
 }
+.textotyp-subtitulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .textotyp-parrafo {
   padding: 2rem 2rem 2rem 2rem;
   font-size: 1.6rem;
@@ -133,9 +137,48 @@ main {
   font-weight: bold;
 }
 
+.hero-nosotros {
+  width: 100%;
+  height: 48rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url("../assets/images/alimentoscuerdaestetoscopio.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-nosotros-h1 {
+  display: flex;
+  text-align: center;
+  font-size: 3rem;
+  color: #D8D2CB;
+  font-weight: bold;
+}
+
+.parrafo-rgba {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 2rem 1rem 2rem 1rem;
+  justify-content: center;
+  background-color: #EEEEEE;
+  font-size: 2rem;
+}
+.parrafo-rgba-p {
+  text-align: center;
+}
+
+.foto-team img {
+  display: flex;
+  margin-top: 6rem;
+  border-radius: 5px;
+}
+
 .footer-index {
   max-width: 100vw;
-  height: 15rem;
+  height: 13rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -145,7 +188,7 @@ main {
 }
 .footer-index-h5 {
   display: flex;
-  text-align: left;
+  text-align: center;
   margin: 2rem 2rem 2rem 2rem;
   font-size: 2.3rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
