@@ -1,0 +1,38 @@
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+%width{
+    width: 100%;
+    height: 48rem;
+    flex-direction: column;
+}
+
+%heroh1{
+    display: flex;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: $color-beige;
+    font-weight: bold;
+}
+
+%palta{
+    margin-top: 5rem;
+    width: 100%;
+    object-fit: cover;
+}
+%fontrecetas{
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
