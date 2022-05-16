@@ -1,0 +1,9 @@
+Agregue para seo:
+-Descripcion al <title> de los cinco html.
+-Cambios a los <h1> por referencias a cada paginas y sus contenidos.
+-Cambios de los title en los multimedias.
+-Englobe <div> en etiquetas semanticas propiamente dichas.
+-Agregue etiquetas <meta> con descripciones y keywords, respetando la cantidad de caracteres.
+-Optimice imagenes comprimiendolas.
+-Añadi open graph solo type y title.
+
