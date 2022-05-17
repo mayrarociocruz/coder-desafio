@@ -13,6 +13,10 @@ main {
   background-color: #D8D2CB;
 }
 
+span {
+  font-weight: bold;
+}
+
 .textotyp-titulo {
   margin-top: 5rem;
   margin-bottom: 1rem;
