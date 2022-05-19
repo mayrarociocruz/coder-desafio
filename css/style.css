@@ -252,9 +252,9 @@ span {
 .hero-h1, .foto-final-h3, .hero-nosotros-h1, .hero-ejercicios-h1, .hero-comunidad-h1, .foto-final-comunidad-h3 {
   display: flex;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4.5rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #D8D2CB;
+  color: rgba(216, 210, 203, 0.3725490196);
   font-weight: bold;
 }
 
