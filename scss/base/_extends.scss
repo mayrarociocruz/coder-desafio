@@ -21,8 +21,9 @@
     display: flex;
     text-align: center;
     font-size: 4.5rem;
+    text-shadow: 2px 2px 2px black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #d8d2cb5f;
+    color: $color-beige; 
     font-weight: bold;
 }
 
