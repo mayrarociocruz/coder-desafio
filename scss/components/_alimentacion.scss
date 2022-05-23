@@ -16,8 +16,9 @@
     height: 88%;   
 }
 .foto-pizza{
-   @extend %palta; 
-    height: 85%;
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
 }
 .foto-plato{
     @extend %palta;
