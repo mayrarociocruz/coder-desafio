@@ -1,13 +1,29 @@
-.parrafo-rgba{
-  margin-top: 3rem; 
+.fondoparrafo{
+  width: 100%;
+  height: auto-fill;
+  margin-top: 3rem;
   margin-bottom: 3rem;
-  padding: 2rem 1rem 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/images/fondo-index.jpg");
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.parrafo-rgba{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   justify-content: center;
-  background-color: #171010;
+  
   font-size: 1.8rem;
-  color: $color-beige;
+  color:$blanco;
   &-p {
+    padding: 3rem 3rem 3rem 3rem;
       text-align: center;
+      background-color: #1c658c8f;
   }
 }
 
