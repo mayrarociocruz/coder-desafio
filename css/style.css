@@ -87,9 +87,8 @@ span {
   background: linear-gradient(180deg, rgba(28, 101, 140, 0.9906337535) 0%, rgb(216, 210, 203) 97%, rgb(216, 210, 203) 97%, rgb(238, 238, 238) 100%);
 }
 
-.nav-link {
+.menu-nav {
   font-family: "Poppins", sans-serif;
-  color: #fff;
   font-size: 2rem;
   font-weight: bold;
   text-shadow: 0.5px 0.5px 0.5px black;
@@ -174,7 +173,7 @@ span {
 }
 
 .tamaño-carousel {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
