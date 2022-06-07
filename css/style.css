@@ -223,6 +223,16 @@ span {
 .recetas-lista {
   padding-bottom: 1rem;
 }
+.nombres-comunidad {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(28, 101, 140, 0.2941176471);
+  color: #fff;
+  font-size: 1.8rem;
+}
+
 .footer-index {
   display: flex;
   align-items: center;
@@ -247,6 +257,11 @@ span {
   display: flex;
   list-style: none;
   justify-content: end;
+  transition: 0.5s;
+}
+.footer-index-iconos li:hover {
+  transform: scale(1.3);
+  background-color: aqua;
 }
 .footer-index-iconos li {
   margin: 2rem 2rem 2rem 2rem;
